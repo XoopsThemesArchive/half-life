@@ -1,0 +1,218 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<{$xoops_langcode}>" lang="<{$xoops_langcode}>">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=<{$xoops_charset}>" />
+<meta http-equiv="content-language" content="<{$xoops_langcode}>" />
+<meta name="robots" content="<{$xoops_meta_robots}>" />
+<meta name="keywords" content="<{$xoops_meta_keywords}>" />
+<meta name="description" content="<{$xoops_meta_description}>" />
+<meta name="rating" content="<{$xoops_meta_rating}>" />
+<meta name="author" content="<{$xoops_meta_author}>" />
+<meta name="copyright" content="<{$xoops_meta_copyright}>" />
+<meta name="generator" content="Microsoft FrontPage 5.0" />
+<title><{$xoops_sitename}> - <{$xoops_pagetitle}></title>
+<link href="<{$xoops_url}>/favicon.ico" rel="SHORTCUT ICON" />
+<link rel="stylesheet" type="text/css" media="screen" href="<{$xoops_url}>/xoops.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="<{$xoops_themecss}>" />
+<!-- RMV: added module header -->
+<{$xoops_module_header}>
+<script type="text/javascript">
+<!--
+<{$xoops_js}>
+//-->
+</script>
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="1003" cellpadding=0 cellspacing=0 height="655">
+<tr>
+<td width="1063" height="235" >
+<table width="900" border="0" cellpadding="0" cellspacing="0" height="1">
+<tr>
+<td width="1" height="1">
+<IMG SRC="<{$xoops_imageurl}>imagens/index_02.jpg" WIDTH=272 HEIGHT=235 ALT=""></td>
+<td height=192 width="163" background="<{$xoops_imageurl}>imagens/hg_e.gif">
+<IMG SRC="<{$xoops_imageurl}>imagens/index_03.jpg" WIDTH=216 HEIGHT=235 ALT=""></td>
+<td width="522" height="192" background="<{$xoops_imageurl}>imagens/extension.jpg">
+<IMG SRC="<{$xoops_imageurl}>imagens/index_04.jpg" WIDTH=318 HEIGHT=235 ALT=""></td>
+<td width="524" height="192" background="<{$xoops_imageurl}>imagens/extension.jpg">
+&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td width="1063" height="20">
+<table width="1116" cellpadding=0 cellspacing=0>
+<tr>
+<td width="860" background="<{$xoops_imageurl}>imagens/extender.jpg">
+<table align="right" cellpadding="0" cellspacing="0" height="19">
+<tr>
+<td width="117" align="center">
+<p align="center">
+<font color="#00FF00" face="Verdana" size="1">
+Me</font><font color="#FFFFFF" face="Verdana" size="1">nu</font></p>
+</td>
+<td width="117" align="center">
+<p align="center">
+<font color="#00FF00" face="Verdana" size="1">
+Me</font><font color="#FFFFFF" face="Verdana" size="1">nu</font></p>
+</td>
+<td width="117" align="center">
+<p align="center">
+<font color="#00FF00" face="Verdana" size="1">
+Me</font><font color="#FFFFFF" face="Verdana" size="1">nu</font></p>
+</td>
+<td width="117" align="center">
+<p align="center">
+<font color="#00FF00" face="Verdana" size="1">
+Me</font><font color="#FFFFFF" face="Verdana" size="1">nu</font></p>
+</td>
+<td width="117" align="center">
+<p align="center">
+<font color="#00FF00" face="Verdana" size="1">
+Me</font><font color="#FFFFFF" face="Verdana" size="1">nu</font></p>
+</td>
+<td width="117" align="center">
+<p align="center">
+<font color="#00FF00" face="Verdana" size="1">
+Me</font><font color="#FFFFFF" face="Verdana" size="1">nu</font></p>
+</td>
+<td width="117" align="center">
+<p align="center">
+<font color="#00FF00" face="Verdana" size="1">
+Me</font><font color="#FFFFFF" face="Verdana" size="1">nu</font></p>
+</td>
+<td width="117" align="center">
+<p align="center">
+<font color="#00FF00" face="Verdana" size="1">
+Me</font><font color="#FFFFFF" face="Verdana" size="1">nu</font></p>
+</td>
+</tr>
+</table>
+</td>
+<td width="50" background="<{$xoops_imageurl}>imagens/extender.jpg">
+&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td width="1063" height="373">
+<span lang="fr">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="background-color: #FFFFFF">&nbsp;<font color="#FFFFFF">
+</font></span>
+<font color="#FFFFFF"><span style="background-color: #FFFFFF">gg</span></font></span><table width="1063" cellpadding=0 cellspacing=0>
+<tr>
+<td width=208 id="leftcolumn" >
+<!-- Start left blocks loop -->
+<{foreach item=block from=$xoops_lblocks}>
+<{include file="half-life/theme_blockleft.html"}>
+<{/foreach}>
+<!-- Fim do "loop" dos blocos da esquerda --></td>
+<td bgcolor="#FFFFFF" width="800">
+<!-- Display center blocks if any -->
+<{if $xoops_showcblock == 1}>
+<table cellspacing="0" align="center">
+<tr>
+<td id="centerCcolumn" width="100%">
+<!-- Start center-center blocks loop -->
+<{foreach item=block from=$xoops_ccblocks}>
+<table>
+<tr> 
+<td class="blockTitle">&nbsp;<{$block.title}></td>
+</tr>
+<tr>
+<td class="blockContent"><{$block.content}></td>
+</tr>
+</table>
+<{/foreach}>
+<!-- End center-center blocks loop -->
+</td>
+</tr>
+<tr>
+<td width="50%">
+<!-- Start center-left blocks loop -->
+<{foreach item=block from=$xoops_clblocks}>
+<table cellspacing="1" cellpadding="5" align="center">
+<tr> 
+<td class="blockTitle">&nbsp;<{$block.title}></td>
+</tr>
+<tr>
+<td class="blockContent"><{$block.content}></td>
+</tr>
+</table>
+<{/foreach}>
+<!-- End center-left blocks loop -->
+</td><td width="50%">
+<!-- Start center-right blocks loop -->
+<{foreach item=block from=$xoops_crblocks}>
+<table cellspacing="1" cellpadding="5" align="center">
+<tr> 
+<td class="blockTitle">&nbsp;<{$block.title}></td>
+</tr>
+<tr>
+<td class="blockContent"><{$block.content}></td>
+</tr>
+</table>
+<{/foreach}>
+<!-- End center-right blocks loop -->
+</td>
+</tr>
+</table>
+<{/if}>
+<!-- End display center blocks -->
+<div class="contenu">
+<{$xoops_contents}>
+<hr><{$xoops_banner}>
+<hr>
+<span class="copyright"><{$xoops_footer}></span></div>
+</td>
+<{if $xoops_showrblock == 1}>
+<td width=208 id="rightcolumn" >
+<!-- Início dos blocos da direita -->
+<{foreach item=block from=$xoops_rblocks}>
+<{include file="kg-ndn-jeux/theme_blockright.html"}>
+<{/foreach}>
+<!-- End right blocks loop --></td>
+<img border="0" src="<{$xoops_imageurl}>imagens/spacer.gif" width="17" height="25"></td>
+<{/if}>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td width="1063" height="27">
+<table width="100%" cellpadding=0 cellspacing=0 height="27">
+<tr>
+<td height="27">
+<img border="0" src="<{$xoops_imageurl}>imagens/spacer.gif" width="17" height="25"></td>
+<td border="0" style="background: url('<{$xoops_imageurl}>imagens/extender.jpg') repeat-x; " height="27" width="100%">
+<p align="center"></p>
+<p align="center"></p>
+<p align="center"></p>
+<p align="center"></p>
+<p align="center"></p>
+<p align="center"></p>
+<p align="center"></p>
+<p align="center"></p>
+<p align="center"></p>
+<p align="center"><font color="#FFFFFF"><font face="Arial"><b><font size="2">©</font></b><font size="2"><span lang="fr"><b>&nbsp;
+</b></span></font></font></font><font size="2" face="Arial">
+<span lang="fr"><b><font color="#00FF00">Co</font><font color="#FFFFFF">pyright
+</font> </b></span></font><b>
+<font face="Arial" size="2"><span lang="fr"><font color="#00FF00">Des</font><font color="#FFFFFF">ign 
+:</font></span><font color="#FFFFFF"> </font></font><span class="textep">
+<font size="2">
+<a href="http://www.kitgratos.tk" target="_blank" style="text-decoration: none">
+<font color="#FFFF00" face="Arial">Kit<span lang="fr"> G</span>ratos</font></a><font color="#FFFFFF"></a></font></font><span lang="fr"><font face="Arial" color="#FFFFFF" size="2">&nbsp;
+</font><font face="Arial" color="#FFFFFF" size="2">A</font><font face="Arial" color="#00FF00" size="2">da</font><font face="Arial" color="#FFFFFF" size="2">pté 
+à x</font><font face="Arial" color="#00FF00" size="2">oop</font><font face="Arial" color="#FFFFFF" size="2">s 
+: </font><font size="2" face="Arial" color="#FF0000">
+<a target="_blank" href="http://www.net-actuality.org" style="text-decoration: none">
+<font color="#FFFF00">Florian</font></a></font></span></span></b></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
